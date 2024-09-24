@@ -1,0 +1,9 @@
+XlsxWriter
+pandas
+streamlit
+numpy
+matplotlib
+pillow
+gower
+scikit-learn
+scipy
