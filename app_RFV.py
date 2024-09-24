@@ -65,15 +65,17 @@ def main():
     # Título principal da aplicação
     st.write("""# RFV
 
-    RFV significa recência, frequência, valor e é utilizado para segmentação de clientes baseado no comportamento 
-    de compras dos clientes e agrupa eles em clusters parecidos. Utilizando esse tipo de agrupamento podemos realizar 
-    ações de marketing e CRM melhores direcionadas, ajudando assim na personalização do conteúdo e até a retenção de clientes.
+   RFV, que significa Recência, Frequência e Valor, é uma metodologia usada para segmentar clientes com base em
+   seus hábitos de compra. Essa abordagem classifica os clientes em grupos com padrões de comportamento semelhantes,
+   permitindo a criação de estratégias de marketing e CRM mais precisas. Dessa forma, é possível personalizar o conteúdo
+   e melhorar a retenção de clientes, ajustando as ações às necessidades de cada segmento.
 
-    Para cada cliente é preciso calcular cada uma das componentes abaixo:
 
+    Para cada cliente, é preciso calcular as três componentes abaixo:
+    
     - Recência (R): Quantidade de dias desde a última compra.
-    - Frequência (F): Quantidade total de compras no período.
-    - Valor (V): Total de dinheiro gasto nas compras do período.
+    - Frequência (F): Quantidade total de compras em um período determinado.
+    - Valor (V): Total de dinheiro gasto no período analisado.
 
     E é isso que iremos fazer abaixo.
     """)
