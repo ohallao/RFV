@@ -127,9 +127,9 @@ def main():
         df_RFV.set_index('ID_cliente', inplace=True)
         st.write(df_RFV.head())
 	    
-	    st.write('## Segmentação utilizando o RFV')
-	    st.write("Uma forma de segmentar os clientes é criando quartis para cada componente do RFV. O melhor quartil é chamado de 'A', o segundo melhor de 'B', o terceiro de 'C', e o pior de 'D'. O que é considerado o melhor ou pior depende da componente RFV. Por exemplo, quanto menor a recência, melhor é o cliente (pois ele comprou recentemente), então o menor quartil seria classificado como 'A'. Já para a componente frequência, a lógica se inverte: quanto maior a frequência de compras do cliente, melhor ele/a é, logo o maior quartil recebe a classificação 'A'.")
-	    st.write("Se quisermos trabalhar com mais ou menos classes, podemos ajustar o número de quantis para cada componente conforme necessário.")
+	st.write('## Segmentação utilizando o RFV')
+        st.write("Uma forma de segmentar os clientes é criando quartis para cada componente do RFV. O melhor quartil é chamado de 'A', o segundo melhor de 'B', o terceiro de 'C', e o pior de 'D'. O que é considerado o melhor ou pior depende da componente RFV. Por exemplo, quanto menor a recência, melhor é o cliente (pois ele comprou recentemente), então o menor quartil seria classificado como 'A'. Já para a componente frequência, a lógica se inverte: quanto maior a frequência de compras do cliente, melhor ele/a é, logo o maior quartil recebe a classificação 'A'.")
+        st.write("Se quisermos trabalhar com mais ou menos classes, podemos ajustar o número de quantis para cada componente conforme necessário.")
 	
         st.write('Quartis para o RFV')
         quartis = df_RFV.quantile(q=[0.25,0.5,0.75])
