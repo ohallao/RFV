@@ -2,6 +2,13 @@
 
 Este projeto utiliza a metodologia RFV (Recência, Frequência e Valor) para segmentar clientes com base em seus comportamentos de compra. A aplicação foi desenvolvida em Python, utilizando bibliotecas como Streamlit para a interface de usuário, pandas para manipulação de dados, e métodos de clusterização para agrupar clientes de forma eficiente.
 
+##  Deploy na Streamlit Cloud
+Este projeto está hospedado gratuitamente no RENDER. Você pode acessar a versão online diretamente no seguinte link:
+
+Acessar Aplicativo RFV
+
+https://rfv-recencia-frequencia-e-valor.onrender.com
+
 # Estrutura dos Arquivos
 1. app_RFV.py
 Este arquivo contém a lógica da aplicação para calcular os componentes RFV e segmentar os clientes. Ele inclui as seguintes funcionalidades:
